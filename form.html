@@ -1,0 +1,68 @@
+ <html>
+ <head>
+ <title></title>
+ </head>
+ <style>
+ body{
+	background: purple;
+ }
+ .wrap{
+	width: 360px;
+	margin: auto;
+	background: gray;
+	margin-top: 40px;
+	padding: 30px;
+	border-radius: 10px;
+	border: 3px dotted yellow;
+ }
+ form{
+	padding: 15px;
+	font-family: arial;
+	border: 3px outset deepskyblue;
+	border-radius: 5px;
+ }
+ h2{
+	text-align: center;
+	background: green;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px dashed orange;
+ }
+ input{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: solid;
+ }
+ input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, input[type=password]:focus{
+	width: 99%;
+  background-color:orange;
+ }
+ input[type=submit]{
+	width: 95%;
+	background: green	;
+	border: 3px double black;
+ }
+ </style>
+ <body>
+ <div class="wrap">
+ <form>
+ <h2>Signup Form</h2>
+ <input type="text" name="Your name" placeholder="Your Name"><br><br>
+ <input type="email" name="E-mail" placeholder="Your Email"><br><br>
+ <input type="number" name="Number" placeholder="Your Number"><br><br>
+ <input type="password" name="Password" placeholder="Password"><br><br>
+ <input type="password" name="Password" placeholder="Confirm Password"><br><br>
+ <span style="font-size:18px;">Dath of birth:</span>
+ <input type="date" name="dob" placeholder="Date Of Birth">
+ <br><br>
+ <span style="font-size:18px;">Gender:</span>
+  <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female<br><br>
+ <input type="checkbox">I agree to the terms of use.<br><br><br>
+ <input type="submit" value="Submit Now">
+ </form>
+ </div>
+ </body>
+ </html>
